@@ -6,7 +6,8 @@ if(isset($_POST['action']) && !empty($_POST['action'])) {
         
         switch($action) {
             case 'buscarproducto' : 
-                if(isset($_POST['codproducto'])&& isset($_POST['dbselect'])){
+                
+                if(isset($_POST['codproducto'])&& isset($_POST['dbselect'])){                   
                     $codproduct= trim($_POST['codproducto']);
                     $dbselect = trim ($_POST['dbselect']);
                     $productomodelo = new productoModelo();

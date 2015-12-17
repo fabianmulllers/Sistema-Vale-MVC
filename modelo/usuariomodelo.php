@@ -31,7 +31,7 @@ class usuarioModelo {
                 }
             }
 
-            return "<script>  location.href='tables.php'</script>";
+            return "<script>  location.href='vista/tables.php'</script>";
         } else {
 
             return "correo electrónico que ingresaste o la contraseña no coinciden con ninguna cuenta";
